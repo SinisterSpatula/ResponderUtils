@@ -1,3 +1,4 @@
 {
-  "version": "1.0.3"
+  "version": "1.0.3",
+  "whyupdate": "Fixes issues re-generating bank accts, includes new update notifications, prodives new browser breaker plug-in."
 }
