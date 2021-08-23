@@ -1,9 +1,9 @@
 8/23/21 v1.0.4: Important fixes: Added new Two-Factor Authentication option.  If enabled (see settings sliders to disable), you'll be taken to the new two factor screen during the login process.  Your two-factor code is the same as the password short-cut you can enter at least six characters and ends with zero to proceed to the bank.  This update has many great improvements:
-*Fix email key code entry is now case insensitive.
-*Deals page, credit card account now displays.
-*Deals Tile will switch to a new deal every day.
-*Clicking Logo at the top no longer reveals the simulator.
-*Fixed bugs in external transfers screen when some accounts were set to disabled.
+* Fix email key code entry is now case insensitive.
+* Deals page, credit card account now displays.
+* Deals Tile will switch to a new deal every day.
+* Clicking Logo at the top no longer reveals the simulator.
+* Fixed bugs in external transfers screen when some accounts were set to disabled.
 * add/cancel buttons on the add an external account page will light up 6 seconds after page display now.
 * External transfer page fully set to guide them to add accounts.  Impossible to transfer out (except zelle).
 * remove console.log messages, so scammer won't see the activity when they try to inspect element.
