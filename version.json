@@ -1,4 +1,4 @@
 {
-  "version": "1.0.3",
-  "whyupdate": "<p>Fixes <b>issues</b> re-generating bank accts, includes new update notifications, prodives new browser breaker plug-in.</p>"
+  "version": "1.0.4",
+  "whyupdate": "<p>Two Factor Authentication is added to the latest release, go grab it and enjoy.  <b>TONS</b> of bug fixes too!</p>"
 }
