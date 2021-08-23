@@ -1,4 +1,4 @@
-8/23/21 v1.0.4: Important fixes: Added new Two-Factor Authentication option.  If enabled, you'll be taken to the new two factor screen during the login process.  Your two-factor code is the same as the password short-cut you can enter at least six characters and ends with zero to proceed to the bank.  This update has many great improvements:
+8/23/21 v1.0.4: Important fixes: Added new Two-Factor Authentication option.  If enabled (see settings sliders to disable), you'll be taken to the new two factor screen during the login process.  Your two-factor code is the same as the password short-cut you can enter at least six characters and ends with zero to proceed to the bank.  This update has many great improvements:
 *Fix email key code entry is now case insensitive.
 *Deals page, credit card account now displays.
 *Deals Tile will switch to a new deal every day.
