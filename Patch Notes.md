@@ -1,5 +1,5 @@
 8/23/21 v1.0.4: Important fixes: Added new Two-Factor Authentication option.  If enabled, you'll be taken to the new two factor screen during the login process.  Your two-factor code is the same as the password short-cut you can enter at least six characters and ends with zero to proceed to the bank.  This update has many great improvements:
-*Fix email key code entry is now case insensitive.(edited)
+*Fix email key code entry is now case insensitive.
 *Deals page, credit card account now displays.
 *Deals Tile will switch to a new deal every day.
 *Clicking Logo at the top no longer reveals the simulator.
@@ -39,10 +39,10 @@ Changed Bank of america login for better reliability and function.
 Fixed: Acctmin7 not found, preventing changes to acct data.
 Fixed: Sidebar toggle-close button disppearing when window gets too small.
 Fixed: Paypal Balance not saving.
-Fixed: unable to change "recent" field on database add/edit.(edited)
+Fixed: unable to change "recent" field on database add/edit.
 Fixed: Walmart Giftcards now generate with "6" as first number.
 
-Vastly improved the reg code entry, it no longer prevents the plugin from establishing connection.  Also improved the pop-up connection status display.  Moved key code registration to new tab instead of pop-up (part of what solved the problems).  Will be updating the other plug-in the same way, and testing it, and making other fixes before posting fixed version.(edited)
+Vastly improved the reg code entry, it no longer prevents the plugin from establishing connection.  Also improved the pop-up connection status display.  Moved key code registration to new tab instead of pop-up (part of what solved the problems).  Will be updating the other plug-in the same way, and testing it, and making other fixes before posting fixed version.
 
 Fixed: zelle transfers Not working.
 
