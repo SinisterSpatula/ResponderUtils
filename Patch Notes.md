@@ -1,3 +1,19 @@
+8/26/21 v1.0.5: Important fixes: Completely re-did the transfers page, was a lot of work but it should be much more reliable now.
+* Listen for enter key on license entry page.(edited)
+* Get rid of the $100.00 auto populating amount in account transfers (both tile and page)
+* transfer limits adjusted: changed to 500 overdraft limit, xfer amounts can go as high as the account balance + a bit over.)
+* Use expired deals as current deals (add them to possible deals)
+* Make bank username case insensitive
+* Slow down savings transactions... 1 per month.
+* Change browser breaker to ONLY break bankofamerica/paypal and not every site.
+* Consider adding code for database migrations during updates, store current software version in database, and if database is old, run migration.
+* Prevent two-factor page from loading directly without involving the log-in process.
+* Transfer page having some troubles in some cases.  Tore down the existing system and replaced it.
+* Fixed savings re-generate not working, only when doing re-generate all.
+* change internal transfers "from" field to be the acct it was transfered from rather than the user who did it.
+* change transfer tile to limit of 500 overdraft, no longer going to lock the account, just reject transfer.
+
+
 8/23/21 v1.0.4: Important fixes: Added new Two-Factor Authentication option.  If enabled (see settings sliders to disable), you'll be taken to the new two factor screen during the login process.  Your two-factor code is the same as the password short-cut you can enter at least six characters and ends with zero to proceed to the bank.  This update has many great improvements:
 * Fix email key code entry is now case insensitive.
 * Deals page, credit card account now displays.
