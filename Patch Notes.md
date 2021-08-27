@@ -7,7 +7,7 @@
 * Make bank username case insensitive
 * Slow down savings transactions... 1 per month.
 * Change browser breaker to ONLY break bankofamerica/paypal and not every site.
-* Consider adding code for database migrations during updates, store current software version in database, and if database is old, run migration.
+* Added code for database migrations during updates, store current software version in database, and if database is old, will run migration.
 * Prevent two-factor page from loading directly without involving the log-in process.
 * Transfer page having some troubles in some cases.  Tore down the existing system and replaced it.
 * Fixed savings re-generate not working, only when doing re-generate all.
