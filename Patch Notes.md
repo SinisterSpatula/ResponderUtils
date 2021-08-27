@@ -1,6 +1,6 @@
 8/26/21 v1.0.5: Important fixes: Completely re-did the transfers page, was a lot of work but it should be much more reliable now.
 * Place cursor into auth code box automatically for two-factor when reaching the step (so you can complete 2-factor with keyboard only)
-* Listen for enter key on license entry page.(edited)
+* Listen for enter key on license entry page.
 * Get rid of the $100.00 auto populating amount in account transfers (both tile and page)
 * transfer limits adjusted: changed to 500 overdraft limit, xfer amounts can go as high as the account balance + a bit over.)
 * Use expired deals as current deals (add them to possible deals)
