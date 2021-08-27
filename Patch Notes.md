@@ -13,6 +13,7 @@
 * Fixed savings re-generate not working, only when doing re-generate all.
 * change internal transfers "from" field to be the acct it was transfered from rather than the user who did it.
 * change transfer tile to limit of 500 overdraft, no longer going to lock the account, just reject transfer.
+* Add page refresh when clicking accounts top button to ensure fresh data.
 
 
 8/23/21 v1.0.4: Important fixes: Added new Two-Factor Authentication option.  If enabled (see settings sliders to disable), you'll be taken to the new two factor screen during the login process.  Your two-factor code is the same as the password short-cut you can enter at least six characters and ends with zero to proceed to the bank.  This update has many great improvements:
