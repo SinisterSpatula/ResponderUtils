@@ -1,3 +1,22 @@
+9/1/21 v1.0.6: Important fixes: You can now make backup's of your database and restore them!  (You could also share them with other users, if you like.  After upgrading both your bait and controller plugin's, simply go to the Database side menu, and select Reset.  Scroll to the bottom and you'll find a Download button (save a copy of the database on your host machine), and an Upload button (Restore the database from your backup file).  Advanced users can modify these backup's in a text editor if they wish, but be careful not to break the formatting of it, or you'll not be able to re-import it until you correct the formatting symbols (JSON).
+Other fixes in this version:
+* Added a forced reload when clicking the accounts button on bank so it won't show old data. (Thanks modder!)
+* Database backup/restore feature (mentioned above).
+* make top navigation menu's in bofa look more real/live.
+* New redeem!!!: bestbuy
+* target website will now show profile name and profile city on all pages (without sign-in).
+* Remove auto-fill for passcode/username changes on bank (so it looks less like a demo).
+* Give the appearance that the scammer can change the account password, account username, etc. (Sign-in settings page)
+* Add missing deal names to deal's tile possibilities (fixes wrong/undefined deal name when drilling down on the deal tile).  Let me know if deals tile is still not loading any picture occasionally.
+* Add system log's for bank username/password "changes", and capture the 'changed' information.
+* bestbuy website will now show profile name and profile city on all pages (without sign-in).
+* Alerts History now shows profile email on the alerts.
+* Add giftcard database to gift cards generator page (cards that will validate but have no money). (Thank you OJAS!)
+* Add Starbucks to gift card generator options.  Hide money dropdown when generating cards that do not use it.
+* Re-did the way the plug-in's display their connection status, it should be more true and accurate to what the connection state between them really is.  Slowed the controller's aggressiveness towards making the connection with the bait at startup.  Also the controller will now try to re-use the same ID number.
+* Revised some FAQ's in the help section.
+
+
 8/26/21 v1.0.5: Important fixes: Completely re-did the transfers page, was a lot of work but it should be much more reliable now.
 * Place cursor into auth code box automatically for two-factor when reaching the step (so you can complete 2-factor with keyboard only)
 * Listen for enter key on license entry page.
