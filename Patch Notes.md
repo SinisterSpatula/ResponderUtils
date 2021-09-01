@@ -18,6 +18,7 @@ Other fixes in this version:
 * Revised some FAQ's in the help section.
 
 \
+
 \
 
 
@@ -42,6 +43,7 @@ Important fixes: Completely re-did the transfers page, was a lot of work but it 
 
 
 \
+
 \
 
 
@@ -69,6 +71,7 @@ Important fixes: Added new Two-Factor Authentication option.  If enabled (see se
 
 
 \
+
 \
 
 
@@ -82,6 +85,7 @@ controller's pop-up menu.  When installing new versions, be sure to replace both
 
 
 \
+
 \
 
 
@@ -92,6 +96,7 @@ Changed Bank of america login for better reliability and function.
 
 
 \
+
 \
 
 
