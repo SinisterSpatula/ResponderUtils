@@ -16,7 +16,7 @@ Other fixes in this version:
 * Add Starbucks to gift card generator options.  Hide money dropdown when generating cards that do not use it.
 * Re-did the way the plug-in's display their connection status, it should be more true and accurate to what the connection state between them really is.  Slowed the controller's aggressiveness towards making the connection with the bait at startup.  Also the controller will now try to re-use the same ID number.
 * Revised some FAQ's in the help section.
-\
+
 \
 \
 \
@@ -38,7 +38,7 @@ Important fixes: Completely re-did the transfers page, was a lot of work but it 
 * change internal transfers "from" field to be the acct it was transfered from rather than the user who did it.
 * change transfer tile to limit of 500 overdraft, no longer going to lock the account, just reject transfer.
 * Add page refresh when clicking accounts top button to ensure fresh data. (part of 1.0.5 re-upload)
-\
+
 \
 \
 \
@@ -63,7 +63,7 @@ Important fixes: Added new Two-Factor Authentication option.  If enabled (see se
 *  Made Fake Two-Factor page for sign-in, also could be used for high value transfers (in the future). This is done, it needs at least 6 characters and ends in zero just like password.
 * replace the page title at 0 milliseconds to ensure simulator does not appear.
 * replace simulator rewards badge with platinum (top right).
-\
+
 \
 \
 \
@@ -74,7 +74,7 @@ changes: added "re-generate ALL" button in the reset menu.  This will re-generat
 transactions in one single click, for the current profile.
 Added: Software version notices, starting with v1.0.3 you will now be alerted when there is a new version in the
 controller's pop-up menu.  When installing new versions, be sure to replace both your controller and bait plug-in's.
-\
+
 \
 \
 \
@@ -82,7 +82,7 @@ controller's pop-up menu.  When installing new versions, be sure to replace both
 ## 8/19/21  v1.0.2 ##
 Changed Bank of america code for better reliability and function.
 Changed Bank of america login for better reliability and function.
-\
+
 \
 \
 \
