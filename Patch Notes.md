@@ -1,4 +1,4 @@
-##9/1/21 v1.0.6##
+## 9/1/21 v1.0.6 ##
 Important fixes: You can now make backup's of your database and restore them!  (You could also share them with other users, if you like.  After upgrading both your bait and controller plugin's, simply go to the Database side menu, and select Reset.  Scroll to the bottom and you'll find a Download button (save a copy of the database on your host machine), and an Upload button (Restore the database from your backup file).  Advanced users can modify these backup's in a text editor if they wish, but be careful not to break the formatting of it, or you'll not be able to re-import it until you correct the formatting symbols (JSON).
 Other fixes in this version:
 * Added a forced reload when clicking the accounts button on bank so it won't show old data. (Thanks modder!)
@@ -18,7 +18,7 @@ Other fixes in this version:
 * Revised some FAQ's in the help section.
 
 
-8/26/21 v1.0.5: Important fixes: Completely re-did the transfers page, was a lot of work but it should be much more reliable now.
+## 8/26/21 v1.0.5 ## Important fixes: Completely re-did the transfers page, was a lot of work but it should be much more reliable now.
 * Place cursor into auth code box automatically for two-factor when reaching the step (so you can complete 2-factor with keyboard only)
 * Listen for enter key on license entry page.
 * Get rid of the $100.00 auto populating amount in account transfers (both tile and page)
