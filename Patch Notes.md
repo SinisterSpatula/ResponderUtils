@@ -17,10 +17,9 @@ Other fixes in this version:
 * Re-did the way the plug-in's display their connection status, it should be more true and accurate to what the connection state between them really is.  Slowed the controller's aggressiveness towards making the connection with the bait at startup.  Also the controller will now try to re-use the same ID number.
 * Revised some FAQ's in the help section.
 
+\
+\
 
-\
-\
-\
 
 
 ## 8/26/21 v1.0.5 ##
@@ -44,7 +43,7 @@ Important fixes: Completely re-did the transfers page, was a lot of work but it 
 
 \
 \
-\
+
 
 
 ## 8/23/21 v1.0.4 ##
@@ -71,7 +70,7 @@ Important fixes: Added new Two-Factor Authentication option.  If enabled (see se
 
 \
 \
-\
+
 
 
 ## 8/21/21  v1.0.3 ##
@@ -84,7 +83,7 @@ controller's pop-up menu.  When installing new versions, be sure to replace both
 
 \
 \
-\
+
 
 
 ## 8/19/21  v1.0.2 ##
@@ -94,7 +93,7 @@ Changed Bank of america login for better reliability and function.
 
 \
 \
-\
+
 
 
 ## 8/19/21  v1.0.1 ##
