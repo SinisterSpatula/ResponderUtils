@@ -17,9 +17,11 @@ Other fixes in this version:
 * Re-did the way the plug-in's display their connection status, it should be more true and accurate to what the connection state between them really is.  Slowed the controller's aggressiveness towards making the connection with the bait at startup.  Also the controller will now try to re-use the same ID number.
 * Revised some FAQ's in the help section.
 
+
 \
 \
 \
+
 
 ## 8/26/21 v1.0.5 ##
 Important fixes: Completely re-did the transfers page, was a lot of work but it should be much more reliable now.
@@ -39,9 +41,11 @@ Important fixes: Completely re-did the transfers page, was a lot of work but it 
 * change transfer tile to limit of 500 overdraft, no longer going to lock the account, just reject transfer.
 * Add page refresh when clicking accounts top button to ensure fresh data. (part of 1.0.5 re-upload)
 
+
 \
 \
 \
+
 
 ## 8/23/21 v1.0.4 ##
 Important fixes: Added new Two-Factor Authentication option.  If enabled (see settings sliders to disable), you'll be taken to the new two factor screen during the login process.  Your two-factor code is the same as the password short-cut you can enter at least six characters and ends with zero to proceed to the bank.  This update has many great improvements:
@@ -64,9 +68,11 @@ Important fixes: Added new Two-Factor Authentication option.  If enabled (see se
 * replace the page title at 0 milliseconds to ensure simulator does not appear.
 * replace simulator rewards badge with platinum (top right).
 
+
 \
 \
 \
+
 
 ## 8/21/21  v1.0.3 ##
 Important fixes: corrected issue with re-generating account's (account balance and acct minimum were stuck at 1,000)
@@ -75,17 +81,21 @@ transactions in one single click, for the current profile.
 Added: Software version notices, starting with v1.0.3 you will now be alerted when there is a new version in the
 controller's pop-up menu.  When installing new versions, be sure to replace both your controller and bait plug-in's.
 
+
 \
 \
 \
+
 
 ## 8/19/21  v1.0.2 ##
 Changed Bank of america code for better reliability and function.
 Changed Bank of america login for better reliability and function.
 
+
 \
 \
 \
+
 
 ## 8/19/21  v1.0.1 ##
 
