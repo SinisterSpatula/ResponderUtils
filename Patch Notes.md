@@ -18,7 +18,8 @@ Other fixes in this version:
 * Revised some FAQ's in the help section.
 
 
-## 8/26/21 v1.0.5 ## Important fixes: Completely re-did the transfers page, was a lot of work but it should be much more reliable now.
+## 8/26/21 v1.0.5 ##
+Important fixes: Completely re-did the transfers page, was a lot of work but it should be much more reliable now.
 * Place cursor into auth code box automatically for two-factor when reaching the step (so you can complete 2-factor with keyboard only)
 * Listen for enter key on license entry page.
 * Get rid of the $100.00 auto populating amount in account transfers (both tile and page)
@@ -36,7 +37,8 @@ Other fixes in this version:
 * Add page refresh when clicking accounts top button to ensure fresh data. (part of 1.0.5 re-upload)
 
 
-8/23/21 v1.0.4: Important fixes: Added new Two-Factor Authentication option.  If enabled (see settings sliders to disable), you'll be taken to the new two factor screen during the login process.  Your two-factor code is the same as the password short-cut you can enter at least six characters and ends with zero to proceed to the bank.  This update has many great improvements:
+## 8/23/21 v1.0.4 ##
+Important fixes: Added new Two-Factor Authentication option.  If enabled (see settings sliders to disable), you'll be taken to the new two factor screen during the login process.  Your two-factor code is the same as the password short-cut you can enter at least six characters and ends with zero to proceed to the bank.  This update has many great improvements:
 * Fix email key code entry is now case insensitive.
 * Deals page, credit card account now displays.
 * Deals Tile will switch to a new deal every day.
@@ -57,14 +59,14 @@ Other fixes in this version:
 * replace simulator rewards badge with platinum (top right).
 
 
-8/21/21  v1.0.3
+## 8/21/21  v1.0.3 ##
 Important fixes: corrected issue with re-generating account's (account balance and acct minimum were stuck at 1,000)
 changes: added "re-generate ALL" button in the reset menu.  This will re-generate all checking/savings/credit/billpay
 transactions in one single click, for the current profile.
 Added: Software version notices, starting with v1.0.3 you will now be alerted when there is a new version in the
 controller's pop-up menu.  When installing new versions, be sure to replace both your controller and bait plug-in's.
 
-8/19/21  v1.0.2
+## 8/19/21  v1.0.2 ##
 Changed Bank of america code for better reliability and function.
 Changed Bank of america login for better reliability and function.
 
@@ -72,7 +74,7 @@ Changed Bank of america login for better reliability and function.
 
 
 
-8/19/21  v1.0.1
+## 8/19/21  v1.0.1 ##
 
 Fixed: Acctmin7 not found, preventing changes to acct data.
 Fixed: Sidebar toggle-close button disppearing when window gets too small.
