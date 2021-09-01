@@ -20,6 +20,7 @@ Other fixes in this version:
 <br/>
 <br/>
 <br/>
+
 ## 8/26/21 v1.0.5 ##
 Important fixes: Completely re-did the transfers page, was a lot of work but it should be much more reliable now.
 * Place cursor into auth code box automatically for two-factor when reaching the step (so you can complete 2-factor with keyboard only)
@@ -41,6 +42,7 @@ Important fixes: Completely re-did the transfers page, was a lot of work but it 
 <br/>
 <br/>
 <br/>
+
 ## 8/23/21 v1.0.4 ##
 Important fixes: Added new Two-Factor Authentication option.  If enabled (see settings sliders to disable), you'll be taken to the new two factor screen during the login process.  Your two-factor code is the same as the password short-cut you can enter at least six characters and ends with zero to proceed to the bank.  This update has many great improvements:
 * Fix email key code entry is now case insensitive.
@@ -65,6 +67,7 @@ Important fixes: Added new Two-Factor Authentication option.  If enabled (see se
 <br/>
 <br/>
 <br/>
+
 ## 8/21/21  v1.0.3 ##
 Important fixes: corrected issue with re-generating account's (account balance and acct minimum were stuck at 1,000)
 changes: added "re-generate ALL" button in the reset menu.  This will re-generate all checking/savings/credit/billpay
@@ -75,6 +78,7 @@ controller's pop-up menu.  When installing new versions, be sure to replace both
 <br/>
 <br/>
 <br/>
+
 ## 8/19/21  v1.0.2 ##
 Changed Bank of america code for better reliability and function.
 Changed Bank of america login for better reliability and function.
@@ -82,6 +86,7 @@ Changed Bank of america login for better reliability and function.
 <br/>
 <br/>
 <br/>
+
 ## 8/19/21  v1.0.1 ##
 
 Fixed: Acctmin7 not found, preventing changes to acct data.
