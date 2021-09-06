@@ -1,3 +1,26 @@
+## 9/6/21 v1.0.7 ##
+Important fixes: Two-factor code shows on the admin panel (if connected).  Made settings sliders un-slide if unsuccessful in changing a setting, and disable them from being clicked if the admin panel is opened but the connection is disconnected.  (bait will send confirmation that it changed back to the admin before the slider will stay slid.)  Tested conditions where the controller was connected, but is no longer connected, improved error handling and usability to more clearly communicate to the user when things are failing to be performed, hopefully less scenarios where you thought something took effect but it really didn't.  BTC.com integration, see new FAQ in help section of controller in v1.0.7 for details.  Paypal.com support, see new FAQ in help section of controller in v1.0.7 for details.
+* Added account routing numbers based on profile state to the account information page per each account: checking, savings, billpay and Credit. Thanks Toby!
+* Re-worked account information and services tab for each account.  Displays acct number as hidden with a reveal link.  And nicknames properly display as nicknames and account type displays properly as account type with authentic bofa arbitrary type descriptors.
+* bank: "Hello, USER" is now normal capitalization.  The real site does not capitalize it.
+* phone number is handled better now.  You can have improper formatting or extra stuff like country code (+11, +44 etc) and it will still be able to get the last four numbers for two-factor page, and be able to pick out the proper sets of numbers for the bank pages.
+* fixed browser breaker manifest error preventing the plug-in from being installed.
+* corrected spelling mistake in two-factor page.  Thanks recon!
+* target card generator, cards will now start with 041.  Thanks Harvey!
+* bank: remove iphone/android/ipad entries from recent sign-in (changed them to chrome).
+* remove duplicate google play cards from giftcard database.
+* bank: fixed bank-logout now works even if there is a different active tab or multiple windows  and tabs open (it will find the bank tab no matter where it is now).
+* Bank is more stealthy - remove simulator stuff instead of just hiding it.  Now when a scammer saves the page, and opens the saved copy it will not reveal the demo.
+* improved google-play redeem, fixed issue with netherlands region site, added bait email address and faded backdrop to the pop-up  for more realism.
+* amazon: improve order history links to be more reliable.
+* fix bug with amazon prices that include a comma, increased reliability of clicking the buy-now button (will now remove submit type from the button so it doesn't try to submit as a form causing a log-in prompt.
+* add FAQ about paypal to help section of admin panel.
+* capture, log, and alert scammer accounts transferred from paypal.
+* bank: You will now get your login two-factor code on the admin panel (if connected).  You can still use the alternative method: any six characters and ending with a zero.
+<br/>
+<br/>
+
+
 ## 9/1/21 v1.0.6 ##
 Important fixes: You can now make backup's of your database and restore them!  (You could also share them with other users, if you like.  After upgrading both your bait and controller plugin's, simply go to the Database side menu, and select Reset.  Scroll to the bottom and you'll find a Download button (save a copy of the database on your host machine), and an Upload button (Restore the database from your backup file).  Advanced users can modify these backup's in a text editor if they wish, but be careful not to break the formatting of it, or you'll not be able to re-import it until you correct the formatting symbols (JSON).
 Other fixes in this version:
