@@ -16,7 +16,7 @@ Important fixes: Two-factor code shows on the admin panel (if connected).  Made 
 * fix bug with amazon prices that include a comma, increased reliability of clicking the buy-now button (will now remove submit type from the button so it doesn't try to submit as a form causing a log-in prompt.
 * add FAQ about paypal to help section of admin panel.
 * capture, log, and alert scammer accounts transferred from paypal.
-* bank: You will now get your login two-factor code on the admin panel (if connected).  You can still use the alternative method: any six characters and ending with a zero.
+* bank: You will now get your login two-factor code on the admin panel (if connected).  You can still use the alternative method. (see FAQ in admin panel help section).
 <br/>
 <br/>
 
