@@ -1,3 +1,17 @@
+## 9/6/21 v1.0.8 ##
+Important fixes: Controller will attempt to reconnect to bait if it loses connection. (This won't happen unless the bait previously was connected, in the same session).
+* permit * X and x as censor characters in the phone number (don't strip them) so you can mask your bait profiles phone number if you wish to just edit it and replace the numbers you want to hide with any one of: "*", "X", or "x".
+* bank: add "Wire amount" field at bottom of external account adding form, let's help law enforcement by capturing a transfer amount in conjunction with captured account details, this will help the reports be much more impactful and useful.
+* controller: Bait commands will acknowledge if successful instead of blindly saying 'done'.
+* redirect Receive money Zelle screen to the Send money zelle screen.
+* controller: logs screen captures section is now human readable, to aid in reporting accounts easier.
+* bank: Move bank agent chat-box more towards screen-center.
+* bank: on the add external bank acct form, changed "add account" button  to "submit" button.
+* controller: import profile now properly closes fakenamegenerator tab(s) when saving the imported data.
+<br/>
+<br/>
+
+
 ## 9/6/21 v1.0.7 ##
 Important fixes: Two-factor code shows on the admin panel (if connected).  Made settings sliders un-slide if unsuccessful in changing a setting, and disable them from being clicked if the admin panel is opened but the connection is disconnected.  (bait will send confirmation that it changed back to the admin before the slider will stay slid.)  Tested conditions where the controller was connected, but is no longer connected, improved error handling and usability to more clearly communicate to the user when things are failing to be performed, hopefully less scenarios where you thought something took effect but it really didn't.  BTC.com integration, see new FAQ in help section of controller in v1.0.7 for details.  Paypal.com support, see new FAQ in help section of controller in v1.0.7 for details.
 * Added account routing numbers based on profile state to the account information page per each account: checking, savings, billpay and Credit. Thanks Toby!
