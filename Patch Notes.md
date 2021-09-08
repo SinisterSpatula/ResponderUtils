@@ -1,4 +1,4 @@
-## 9/6/21 v1.0.8 ##
+## 9/8/21 v1.0.8 ##
 Important fixes: Controller will attempt to reconnect to bait if it loses connection. (This won't happen unless the bait previously was connected, in the same session).
 * permit * X and x as censor characters in the phone number (don't strip them) so you can mask your bait profiles phone number if you wish to just edit it and replace the numbers you want to hide with any one of: "*", "X", or "x".
 * bank: add "Wire amount" field at bottom of external account adding form, let's help law enforcement by capturing a transfer amount in conjunction with captured account details, this will help the reports be much more impactful and useful.
