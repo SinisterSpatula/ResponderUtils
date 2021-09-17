@@ -1,3 +1,14 @@
+## 9/17/21 v1.0.9 ##
+Important fixes: Controller will start keeping backup's of captures (logs screen), so if you revert vm snapshots you won't lose your captures.  You can delete the backed up captures by clicking the delete all button on the logs screen.
+* logs/captures: changed user number to user name.
+* help: add giftcard redeem info to FAQ.
+* giftcard generator: apple gift cards will now start with 'X' and  no longer generate with a pin (they don't use a pin).
+* giftcard generator: added ebay cards and more goolge play cards to the giftcard database.
+* amazon: hide the sign-in 'flyout' better.
+<br/>
+<br/>
+
+
 ## 9/8/21 v1.0.8 ##
 Important fixes: Controller will attempt to reconnect to bait if it loses connection. (This won't happen unless the bait previously was connected, in the same session).
 * permit * X and x as censor characters in the phone number (don't strip them) so you can mask your bait profiles phone number if you wish to just edit it and replace the numbers you want to hide with any one of: "*", "X", or "x".
