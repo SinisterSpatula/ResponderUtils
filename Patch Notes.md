@@ -1,6 +1,7 @@
 ## 9/17/21 v1.0.9 ##
 Important fixes: Controller will start keeping backup's of captures (logs screen), so if you revert vm snapshots you won't lose your captures.  You can delete the backed up captures by clicking the delete all button on the logs screen.
 * logs/captures: changed user number to user name.
+* captures: will be sent to the controller also when they occur (to ensure we get a copy onto the controller if there is a connection established).
 * help: add giftcard redeem info to FAQ.
 * giftcard generator: apple gift cards will now start with 'X' and  no longer generate with a pin (they don't use a pin).
 * giftcard generator: added ebay cards and more goolge play cards to the giftcard database.
