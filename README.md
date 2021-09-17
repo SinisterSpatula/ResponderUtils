@@ -6,5 +6,3 @@
 * [Sinister Spatula's Discord Server](https://discord.gg/Jt4XSxBfvG)
 * [Sinister Spatula's YouTube Channel](https://www.youtube.com/channel/UCL1X9tYwaNBZm_Ry-Grj4ug)
 * [Sinister Spatula's Twitter](https://twitter.com/SinisterSpatula)
-
-* [HarveyDent's Discord](https://discord.gg/9ArMKAbm8X)
