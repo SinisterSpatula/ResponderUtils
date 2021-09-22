@@ -1,3 +1,12 @@
+## 9/21/21 v1.0.10 ##
+Important fixes: (bank transfers screen) swapped location of From/To and expand amount box, change text inside amount box to left-align, and remove notes box, it now compares much better to the real screen.
+* logs/captures: Add Saved Logs (from controller) to the logs screen, so now both logs and captures will have a local backup on the controller.
+* logs/captures: Logs will be sent to the controller also when they occur (to ensure we get a copy onto the controller if there is a connection established), previously it was just the red indicator that was sent.
+* Zelle: Will now show an over the limit error if scammer tries to transfer more than 1,000 (previously the page would just reload).
+<br/>
+<br/>
+
+
 ## 9/17/21 v1.0.9 ##
 Important fixes: Controller will start keeping backup's of captures (logs screen), so if you revert vm snapshots you won't lose your captures.  You can delete the backed up captures by clicking the delete all button on the logs screen.
 * logs/captures: changed user number to user name.
