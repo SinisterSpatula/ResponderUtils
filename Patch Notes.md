@@ -5,6 +5,13 @@
 <br/>
 <br/>
 
+## 9/26/21 v1.0.11 ##
+Important fixes: Added merril edge investing accounts.  They will have quickview, but no real account page.  Visit the Loan Mortage and Investing Accounts on your profile dashboard to create the accounts and they will appear on the main bank page under investments.
+* added 11 more walmart giftcards to the GC database.
+* Zelle: change newly created zelle transfers status from completed to processing.
+<br/>
+<br/>
+
 
 ## 9/21/21 v1.0.10 ##
 Important fixes: (bank transfers screen) swapped location of From/To and expand amount box, change text inside amount box to left-align, and remove notes box, it now compares much better to the real screen.
