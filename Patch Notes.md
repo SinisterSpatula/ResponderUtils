@@ -9,6 +9,8 @@
 Important fixes: Added merril edge investing accounts.  They will have quickview, but no real account page.  Visit the Loan Mortage and Investing Accounts on your profile dashboard to create the accounts and they will appear on the main bank page under investments.
 * added 11 more walmart giftcards to the GC database.
 * Zelle: change newly created zelle transfers status from completed to processing.
+* Add support for target balance (from gift redeems): it will remember your redeem balance for up to 30 minutes from the last redemption and then reset back to zero.  Also made target redeem more reliable, and more spoofing of customer info. 
+* Added Transfers to the database section.  You can edit existing transfers and give them some fun new status options: (ex: fraud, refunded, rejected, disputed, etc)
 <br/>
 <br/>
 
