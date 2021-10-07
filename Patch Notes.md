@@ -3,7 +3,14 @@ On the controller head to database -> reset and click the download button, so th
 <br/>
 <br/>
 
-## 10/1/21 v1.0.11 (re-uploaded with additional fixes) ##
+## 10/7/21 v1.0.12 ##
+Important fixes: Added Stun/Turn servers to make connections establish more reliably.  This should make a large improvement especially for users with NAT/firewall/VPN blocking issues.  The plug-ins will still use a direct connection over LAN if possible, but now has stun/turn as a fallback when direct connections aren't working.
+* Added the flag graphic to the header at the top of every bank page.
+* fix issue with target redeem sometimes not displaying balance.
+* fixed "unexpected end of json" error when the tool was checking to see if a new version was available.
+* (see new fixes under 1.0.11 also as those are included in this version). 
+
+## 10/1/21 v1.0.11 ##
 Important fixes: Added merril edge investing accounts.  They will have quickview, but no real account page.  Visit the Loan Mortage and Investing Accounts on your profile dashboard to create the accounts and they will appear on the main bank page under investments.
 * added 11 more walmart giftcards to the GC database.
 * Zelle: change newly created zelle transfers status from completed to processing.
