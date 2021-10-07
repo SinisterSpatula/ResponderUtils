@@ -1,7 +1,5 @@
 ### How To Update ###
-|  |
-|----------------:|
-| On the controller head to database -> reset and click the download button, so that you have a current backup of your database.  Next, find the viewcontent/download link from your purchase email to download the newest version.  Then, replace both of your plug-in folders (controller AND utilities) with the new version.  If needed, go back to database -> reset screen and click upload to restore your database backup file. |
+On the controller head to database -> reset and click the download button, so that you have a current backup of your database.  Next, find the viewcontent/download link from your purchase email to download the newest version.  Then, replace both of your plug-in folders (controller AND utilities) with the new version.  If needed, go back to database -> reset screen and click upload to restore your database backup file.
 <br/>
 <br/>
 
