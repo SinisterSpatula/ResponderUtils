@@ -1,7 +1,6 @@
 ### How To Update ###
 
 > On the controller head to database -> reset and click the download button, so that you have a current backup of your database.  Next, find the viewcontent/download link from your purchase email to download the newest version.  Then, replace both of your plug-in folders (controller AND utilities) with the new version.  If needed, go back to database -> reset screen and click upload to restore your database backup file.
-
 <br/>
 <br/>
 
@@ -10,7 +9,9 @@ Important fixes: Added Stun/Turn servers to make connections establish more reli
 * Added the flag graphic to the header at the top of every bank page.
 * fix issue with target redeem sometimes not displaying balance.
 * fixed "unexpected end of json" error when the tool was checking to see if a new version was available.
-* (see new fixes under 1.0.11 also as those are included in this version). 
+* (see new fixes under 1.0.11 also as those are included in this version).
+<br/>
+<br/>
 
 ## 10/1/21 v1.0.11 ##
 Important fixes: Added merril edge investing accounts.  They will have quickview, but no real account page.  Visit the Loan Mortage and Investing Accounts on your profile dashboard to create the accounts and they will appear on the main bank page under investments.
