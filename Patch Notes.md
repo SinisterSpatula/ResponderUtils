@@ -4,6 +4,16 @@
 <br/>
 <br/>
 
+## 10/30/21 v1.0.13 Happy Halloween! ##
+Important fixes: add currency setting to config.js, change formatmoney to use the setting.  To change your displayed currency just edit your config.js file on the bait.  Example: currencyLanguage 'en-GB' and currencyCode 'GBP'.  This change affects the bank, amazon, target, bestbuy, googleplay, btc.com, and paypal.
+* fixed bug: transaction editing, recent field comes up as false when editing, even if the transaction has it as true.   Unable to change it when submitting.
+* try to reduce situations where all the side menu nav groups are expanded.  Collapse all nav groups when opening or closing side menu, and when switching profiles it will open in a new tab and close the old tab. (I think this might actually be a graphical display bug with chrome itself, there is nothing in my code where it would expand all nav groups).
+* remove negative symbol from credit card balance on main account screen and accounts dropdown menu. (seems real BofA doesn't show owed balance as negative.)
+* Zelle add recipient will now save the list of recipient(s) temporarily for 1 hour from the last time a zelle recipient is added.  Note: you can either let them expire after 1 hour, or you can clear them by right-clicking and inspect, click on '>>' and select 'Application', then 'LocalStorage' and 'secure.bofa.com' and delete both the zellerecipenttime and zellereceipent items.
+* changed the disable message (in config.js): 'The system is busy, down for maintenance, or you are not currently registered for this service.  Please call us if you need access to this service'.
+<br/>
+<br/>
+
 ## 10/7/21 v1.0.12 ##
 Important fixes: Added Stun/Turn servers to make connections establish more reliably.  This should make a large improvement especially for users with NAT/firewall/VPN blocking issues.  The plug-ins will still use a direct connection over LAN if possible, but now has stun/turn as a fallback when direct connections aren't working.
 * Added the flag graphic to the header at the top of every bank page.
