@@ -17,18 +17,18 @@
       <div id="HeaderContainer" class="container" style="height: 250px">
         <img src="https://public-files.gumroad.com/izdphipzqxbt1ud9k7hvch7mhibm" style="width: 100%;max-height: 100%" />
       </div>
-      <div id="HeaderTitle">
+      <div id="HeaderTitle" style="position: absolute; top: 20px; left: 60px;">
          <a id="a-title" href="{{ '/' | relative_url }}">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
-        <h2>{{ site.description | default: site.github.project_tagline }} Patch Notes</h2>
+        <h2 style="color: #b5e853;">{{ site.description | default: site.github.project_tagline }} Patch Notes</h2>
 
         <section id="downloads">
           {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
             <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
           {% endif %}
-          <a href="https://sinisterspatula.gumroad.com/l/UgtPr/r7pjv7i" class="btn btn-github"><span class="icon"></span>Buy at Gumroad</a>
+          <a href="https://sinisterspatula.gumroad.com/l/UgtPr/r7pjv7i" class="btn btn-success"><span class="icon"></span>Buy at Gumroad</a>
         </section>
       </div>
     </header>
