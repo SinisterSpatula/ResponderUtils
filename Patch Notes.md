@@ -1,8 +1,15 @@
 ### How To Update ###
 
-> On the controller head to database -> reset and click the download button, so that you have a current backup of your database.  Next, find the viewcontent/download link from your purchase email to download the newest version.  Then, replace both of your plug-in folders (controller AND utilities) with the new version.  If needed, go back to database -> reset screen and click upload to restore your database backup file.
+> (for v14 please see the additional instructions in the file called DATCU Install Readme.txt in your download zip).  On the controller head to database -> reset and click the download button, so that you have a current backup of your database.  Next, find the viewcontent/download link from your purchase email to download the newest version.  Then, replace both of your plug-in folders (controller AND utilities) with the new version.  If needed, go back to database -> reset screen and click upload to restore your database backup file.
 <br/>
 <br/>
+
+## 11/6/21 v1.0.14 ##
+Important fixes: Bank of Amer fixes, and a new additional bank: DATCU!
+* Got Bank of America working again, but it's not 100% yet.  BofA made many changes to their simulator and that broke many things.  Known issues: the transfers screen will redirect to the main accounts view.  Just encourage the scammer to use the transfers tile (on the right side - activity center tiles) instead. (for now).  Zelle transfer may have some blank fields during confirmation.  You may notice other glitches.
+* I'm hopeful that having DATCU locally hosted on your bait will provide a much better, stable, smoother, effecient option that is less prone to bugs and breakage since it does not rely on any external site at all.  Please let me know if you have questions or need any help getting DATCU working, and please see the DATCU Install Readme.txt file (in your v14 download zip) for more information about that.  Thank you for your patience and understanding.
+* DATCU should be fully working and bug free, the only things that are not implemented yet are Zelle and External bank transfers, those will be coming in another update.  I will also work on putting together a new installation video that will cover DATCU install, for now the DATCU Install Readme.txt has the instructions.
+
 
 ## 10/30/21 v1.0.13 Happy Halloween! ##
 Important fixes: add currency setting to config.js, change formatmoney to use the setting.  To change your displayed currency just edit your config.js file on the bait.  Example: currencyLanguage 'en-GB' and currencyCode 'GBP'.  This change affects the bank, amazon, target, bestbuy, googleplay, btc.com, and paypal.
