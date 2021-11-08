@@ -1,6 +1,6 @@
 ### How To Update ###
 
-> (for v14 please see the additional instructions in the file called DATCU Install Readme.txt in your download zip and also you will need to update your caddyfile (caddy config file) just replace your caddyfile with the one from the v14 download) and then restart the caddy process (open task scheduler locate the caddy task, end it, and run it again.  On the controller head to database -> reset and click the download button, so that you have a current backup of your database.  Next, find the viewcontent/download link from your purchase email to download the newest version.  Then, replace both of your plug-in folders (controller AND utilities) with the new version.  If needed, go back to database -> reset screen and click upload to restore your database backup file.
+> Video guide: https://youtu.be/OuEQpd62LzI On the controller head to database -> reset and click the download button, so that you have a current backup of your database.  Next, find the viewcontent/download link from your purchase email to download the newest version.  Then, replace both of your plug-in folders (controller AND utilities) with the new version.  If needed, go back to database -> reset screen and click upload to restore your database backup file.
 <br/>
 <br/>
 
